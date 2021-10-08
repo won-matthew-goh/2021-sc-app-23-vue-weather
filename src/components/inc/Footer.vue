@@ -12,8 +12,8 @@ export default {
 
 <style lang="scss" scoped>
 footer {
-  background-color: $dark-color;
-  color: $light-color;
+  background-color: $accent-color;
+  color: $white-color;
   padding: 1em;
   text-align: center;
 }
