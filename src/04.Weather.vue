@@ -1,7 +1,7 @@
 <template>
   <div>
     <button class="btn btn-primary" @click="getWeather">현재날씨 가져오기</button>
-    <button class="btn btn-primary" @click="clearWeather">현재날씨 가져오기 중지</button>
+    <button class="btn btn-primary" @click="clearWeather">날씨정보 가져오기 중지</button>
   </div>
 </template>
 
@@ -20,7 +20,7 @@ export default {
   },
   watch: {
     coords: async function (v, ov) {
-      console.log(v)
+      console.log('hi', v)
     }
   },
   methods: {
