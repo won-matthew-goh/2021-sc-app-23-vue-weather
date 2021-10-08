@@ -19,6 +19,7 @@ export default {
 <style lang="scss">
 .app-wrapper {
   height: 100vh;
+  background: radial-gradient(circle, rgba(193,200,228,1) 0%, rgba(132,206,235,1) 35%, rgba(136,96,208,1) 100%);;
   @include flex;
   @include flexCol;
   .router-view {
